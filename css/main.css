@@ -1,32 +1,75 @@
-* {
-    box-sizing: border-box;
+
+h1 {
+  color: #2c3e50;
 }
+
+
+h2 {
+  font-size: 1.5em; 
+}
+p {
+  font-size: 16px; 
+}
+ul li {
+  font-size: 1rem; 
+}
+
+
+header {
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+}
+
 
 body {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto-regular.woff2') format('woff2');
+}
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-a {
-    color: deeppink;
-    text-decoration: none;
+
+nav a:hover {
+  text-decoration: underline;
+  color: #2980b9;
 }
 
-a:hover {
-    color: darkmagenta;
+header {
+  border-bottom: 2px solid #34495e;
 }
 
-.drapeau img
-{ width: 200px; 
- height: 200px;
+
+header {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+p, li, a {
+  color: #2c3e50;
 }
