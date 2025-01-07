@@ -1,75 +1,102 @@
-
+/* Modifier la couleur d'un texte */
 h1 {
-  color: #2c3e50;
+  color: #2a9d8f;
 }
 
-
+/* Modifier la taille des textes avec px, em et rem */
 h2 {
-  font-size: 1.5em; 
+  font-size: 2rem;
 }
 p {
-  font-size: 16px; 
+  font-size: 1em;
 }
 ul li {
-  font-size: 1rem; 
+  font-size: 14px;
 }
 
-
+/* Ajouter une marge intérieure au header */
 header {
   padding: 20px;
-  background-color: #ecf0f1;
+  background-color: #264653;
+  color: #ffffff;
 }
 
-
+/* Ajouter une marge extérieure au footer */
 footer {
-  margin-top: 30px;
-  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e76f51;
+  color: #ffffff;
 }
 
-
-h1 {
-  text-align: center;
+/* Changer l'alignement d'un texte */
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
+header nav ul li {
+  margin: 0 15px;
+}
 
+/* Appliquer une image de fond à la page */
 body {
   background-image: url('../img/background.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-position: center;
+  color: #000000;
 }
 
-
+/* Utiliser une police personnalisée avec @font-face */
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/roboto-regular.woff2') format('woff2');
-}
-body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+       url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
+body {
+  font-family: 'OpenSans', sans-serif;
+}
+
+/* Ajouter un effet de survol aux liens */
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+}
 
 nav a:hover {
+  color: #e9c46a;
   text-decoration: underline;
-  color: #2980b9;
 }
 
-header {
-  border-bottom: 2px solid #34495e;
+/* Définir la bordure d'un élément */
+h2 {
+  border-bottom: 2px solid #2a9d8f;
+  padding-bottom: 5px;
 }
 
-
-header {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+/* Ajouter une ombre à un élément */
+h1 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-
+/* Ajouter une largeur maximale à la page */
 main {
   max-width: 800px;
   margin: 0 auto;
 }
 
-
-p, li, a {
-  color: #2c3e50;
+/* Centrer horizontalement le contenu de la page */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
