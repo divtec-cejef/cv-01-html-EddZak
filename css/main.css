@@ -43,9 +43,15 @@ header nav ul {
 header nav ul li {
   margin: 0 20px;
 }
+@font-face {
+    font-family: 'Kanit';
+    src: url('fonts/YourFontFile.tff') format('tff'),
+    font-weight: normal; 
+    font-style: normal; 
+}
 
 body {
-  font-family: 'CustomFont', sans-serif;
+  font-family: 'Kanit', sans-serif;
 }
 
 nav a {
