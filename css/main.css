@@ -45,7 +45,7 @@ header nav ul li {
 }
 @font-face {
     font-family: 'Kanit';
-    src: url('fonts/Kanit-Regular.ttf') format('truetype');
+    src: url('fonts/Kanit-Black.ttf') format('truetype');
     font-weight: normal; 
     font-style: normal; 
 }
