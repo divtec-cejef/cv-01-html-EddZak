@@ -1,95 +1,104 @@
 /* Modifier la couleur d'un texte */
 h1 {
-  color: #2a9d8f;
+  color: #3498db;
 }
 
 /* Modifier la taille des textes avec px, em et rem */
 h2 {
   font-size: 2rem;
+  color: #e74c3c;
 }
 p {
-  font-size: 1em;
+  font-size: 1.1em;
+  color: #2c3e50;
 }
 ul li {
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #34495e;
 }
 
 /* Ajouter une marge intérieure au header */
 header {
-  padding: 20px;
-  background-color: #264653;
+  padding: 30px;
+  background-color: #1abc9c;
   color: #ffffff;
+  text-align: center;
 }
 
 /* Ajouter une marge extérieure au footer */
 footer {
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #e76f51;
-  color: #ffffff;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
 }
 
 /* Changer l'alignement d'un texte */
 header nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   list-style: none;
   padding: 0;
 }
 
 header nav ul li {
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 /* Appliquer une image de fond à la page */
 body {
-  background-image: url('../img/background.jpg');
+  background-image: url('../img/custom_background.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
-  color: #000000;
+  background-position: top center;
+  color: #ffffff;
 }
 
 /* Utiliser une police personnalisée avec @font-face */
 @font-face {
-  font-family: 'OpenSans';
-  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
-       url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-family: 'CustomFont';
+  src: url('../fonts/CustomFont-Regular.woff2') format('woff2'),
+       url('../fonts/CustomFont-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'CustomFont', sans-serif;
 }
 
 /* Ajouter un effet de survol aux liens */
 nav a {
   text-decoration: none;
   color: #ffffff;
-  transition: color 0.3s;
+  transition: color 0.3s, text-shadow 0.3s;
 }
 
 nav a:hover {
-  color: #e9c46a;
-  text-decoration: underline;
+  color: #f1c40f;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Définir la bordure d'un élément */
 h2 {
-  border-bottom: 2px solid #2a9d8f;
-  padding-bottom: 5px;
+  border-left: 5px solid #1abc9c;
+  padding-left: 10px;
 }
 
 /* Ajouter une ombre à un élément */
 h1 {
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* Ajouter une largeur maximale à la page */
 main {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Centrer horizontalement le contenu de la page */
