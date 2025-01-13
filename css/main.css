@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: 'Kanit', sans-serif;
   background-image: url('img/background.jpg');
@@ -9,8 +9,8 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-  font-size: 18px; /* Improve readability */
-  line-height: 1.6; /* More line spacing */
+  font-size: 18px; 
+  line-height: 1.6; 
 }
 
 @font-face {
@@ -20,11 +20,11 @@ body {
   font-style: normal;
 }
 
-/* Header Styles */
+
 header {
   padding: 30px;
-  background-color: #004d40; /* Even darker shade for contrast */
-  color: #ffffff; /* High contrast with the background */
+  background-color: #004d40; 
+  color: #ffffff; 
   text-align: center;
 }
 
@@ -42,16 +42,16 @@ header nav ul li {
 
 nav a {
   text-decoration: none;
-  color: #4527a0; /* Darker purple for contrast */
+  color: #4527a0; 
   transition: color 0.3s, text-shadow 0.3s;
 }
 
 nav a:hover {
-  color: #ffcc00; /* Brighter yellow for contrast */
+  color: #ffcc00; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Main Content Styles */
+
 main {
   max-width: 900px;
   margin: 20px auto;
@@ -60,42 +60,42 @@ main {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Typography */
+
 h1 {
-  color: #0b3d91; /* Darker blue for contrast */
+  color: #0b3d91;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
   font-size: 2rem;
-  color: #b71c1c; /* Stronger red for contrast */
+  color: #b71c1c; 
   border-left: 5px solid #0f9d58;
   padding-left: 10px;
 }
 
 p {
   font-size: 1.1em;
-  color: #212121; /* Darker gray for better readability */
+  color: #212121; 
 }
 
 ul li {
   font-size: 16px;
   line-height: 1.5;
-  color: #212121; /* Matching paragraph color */
+  color: #212121; 
 }
 
-/* Footer Styles */
+
 footer {
   margin-top: 30px;
   padding: 15px;
-  background-color: #1b1b1b; /* Very dark gray for contrast */
-  color: #f5f5f5; /* Brighter text color */
+  background-color: #1b1b1b; 
+  color: #f5f5f5;
   text-align: center;
 }
 
-/* Fix the image size */
+
 .drapeau img {
-  width: 100%; /* Makes the image responsive */
-  height: auto; /* Maintains aspect ratio */
-  display: block; /* Avoids extra spacing around the image */
+  width: 100%;
+  height: auto; 
+  display: block; 
 }
