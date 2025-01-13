@@ -9,6 +9,8 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
+  font-size: 18px; /* Improve readability */
+  line-height: 1.6; /* More line spacing */
 }
 
 @font-face {
@@ -91,10 +93,9 @@ footer {
   text-align: center;
 }
 
-/* Additional Elements */
-.drapeau {
-  width: 250px;
-  height: 250px;
-  background-color: #8e0000; /* Darker red for better contrast */
+/* Fix the image size */
+.drapeau img {
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Avoids extra spacing around the image */
 }
-
