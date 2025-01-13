@@ -93,9 +93,11 @@ footer {
   text-align: center;
 }
 
-
+.drapeau { 
+  text-align: center;
+} 
 .drapeau img {
   width: 150px;
   height: auto; 
-  display: block; 
+  display: inline-block;
 }
