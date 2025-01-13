@@ -1,32 +1,43 @@
-* {
+
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
     color: darkblue;
     background-color: whitesmoke;
+    margin: 0; 
+    padding: 0; 
 }
 
+
 img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
 }
+
 
 a {
     color: deeppink;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 a:hover {
     color: darkmagenta;
+    text-decoration: underline; 
 }
 
-.drapeau img
-{ width: 200px; 
- height: 200px;
+
+.drapeau img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
 }
